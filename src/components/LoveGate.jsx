@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 const LoveGate = ({ onUnlock }) => {
     const [password, setPassword] = useState('');
     const [error, setError] = useState(false);
-    const correctPassword = "1"; // كلمة المرور
+    const correctPassword = "sara"; // كلمة المرور
 
     // حساب عدد الأيام منذ البداية (20 مايو 2025)
     const startDate = new Date('2025-05-20');
